@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="footer-contact">
             {/* we use the &nbsp; to create a customed space between an icon and a text*/}
             <p>
-              <FaMapMarkerAlt /> &nbsp; Address: United States
+              <FaMapMarkerAlt /> &nbsp; Address: Abuja Nigeria
             </p>
             <p>
               <FaPhoneAlt /> &nbsp; Phone: +234 9055 047 774
@@ -55,10 +55,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-box">
-            <img src={logo} alt="logo"/>
-            <p className="u-small-text">
-              &copy; copyright 2023 Designed By Abraham Jude.
-            </p>
+          <img src={logo} alt="logo" />
+          <p className="u-small-text">
+            &copy; copyright 2023 Designed By Abraham Jude.
+          </p>
         </div>
       </div>
     </div>
