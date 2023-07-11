@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import "./css/utils.css";
+import { Navbar, Header, Features , Download, Subscribe, Faq, Footer} from "./components/indexs"; 
+// Importing from an external source
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <main>
+        <header className="header-bg">
+          <Navbar />
+          <Header />
+        </header>
+          <Features/>
+          <Download/>
+          <Subscribe/>
+          <Faq/>
+          <Footer/>
+      </main>
     </div>
   );
 }

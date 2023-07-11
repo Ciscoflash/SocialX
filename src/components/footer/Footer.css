@@ -1,0 +1,31 @@
+#footer {
+  background: var(--dark-blue);
+  color: var(--color-white);
+  width: 100%;
+  padding: 8rem 0;
+}
+.footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 2rem;
+}
+.footer h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  lin-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  font-size: 1.2rem;
+}
+.footer-contact p{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
